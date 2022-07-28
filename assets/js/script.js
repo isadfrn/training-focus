@@ -83,6 +83,7 @@ function playAudio(sound) {
     soundIsPlaying = true;
     pauseAllAudioList(audioList);
     sound.play();
+    sound.loop = true;
   }
 }
 
