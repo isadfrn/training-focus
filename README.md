@@ -1,4 +1,4 @@
-# Focus Timer
+# Training Focus
 
 ![Languages used](https://img.shields.io/github/languages/count/isadfrn/training-focus?style=flat-square)
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/training-focus?style=flat-square)
