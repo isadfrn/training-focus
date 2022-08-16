@@ -9,6 +9,8 @@
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/)
+- [lite-server](https://github.com/johnpapa/lite-server)
 
 ## Content language
 
@@ -16,13 +18,23 @@
 
 ## About
 
-A fully responsive timer with ambient sounds for helping with focus and dark and light themes.
+A timer with ambient sounds for helping with focus and dark and light themes, can act like a Pomodoro Timer.
 
 ![A responsive timer with dark and light themes](./assets/img/demo.png)
 
 ## Run
 
-Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
+First install all dependencies:
+
+```
+npm install
+```
+
+Then run with:
+
+```
+npm run start
+```
 
 ## Contributing
 
