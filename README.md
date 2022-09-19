@@ -12,17 +12,7 @@ A timer with ambient sounds for helping with focus. Has dark and light themes, a
 
 ## Run
 
-First install all dependencies:
-
-```
-npm install
-```
-
-Then run with:
-
-```
-npm run start
-```
+Install [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right click on `index.html` file and then click on `Open with Live Server`.
 
 ## Status
 
