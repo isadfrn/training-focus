@@ -4,7 +4,7 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/training-focus?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/training-focus?style=flat-square)
 
-![A responsive timer with dark and light themes](./assets/img/demo.gif)
+![](./assets/img/demo.gif)
 
 ## About
 
@@ -16,7 +16,7 @@ Install [Live Server extension](https://marketplace.visualstudio.com/items?itemN
 
 ## Status
 
-Done ✅
+Finished 🛑
 
 ## License
 
