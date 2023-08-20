@@ -1,0 +1,132 @@
+:root {
+  --dark: #000000;
+  --white: #ffffff;
+
+  --dark-btn: #29292e;
+  --dark-btn-focus: #0a3442;
+
+  --light-btn: #e1e1e6;
+  --light-btn-focus: #02799d46;
+
+  --roboto: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--roboto);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.light__theme {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+.dark__theme {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.container {
+  padding: 2rem;
+  display: grid;
+}
+
+.theme__switcher {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.theme__switcher button {
+  border: none;
+  background: none;
+}
+
+.timer__display {
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer__cotroller {
+  padding-bottom: 2rem;
+}
+
+.timer__cotroller button {
+  margin-right: 0.4rem;
+}
+
+.timer__cotroller button:last-child {
+  margin-right: 0rem;
+}
+
+.sound__header h2 {
+  padding: 1rem;
+}
+
+.sound__controller {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.sound__controller button {
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.sound__controller button:focus {
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.light__theme .sound__controller button {
+  background-color: var(--light-btn);
+}
+
+.light__theme .sound__controller button:focus {
+  background-color: var(--light-btn-focus);
+}
+
+.dark__theme .sound__controller button {
+  background-color: var(--dark-btn);
+}
+
+.dark__theme .sound__controller button:focus {
+  background-color: var(--dark-btn-focus);
+}
+
+@media (min-width: 980px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .timer__cotroller {
+    padding-bottom: 0;
+  }
+}
