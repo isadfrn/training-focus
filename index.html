@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/public/favicon.ico" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Focus Timer</title>
+  </head>
+  <body id="theme" class="light__theme">
+    <main class="container">
+      <div class="theme__switcher">
+        <button class="theme__switcher__btn">
+          <img
+            class="theme__switcher__btn__img"
+            src="./assets/img/light/light.svg"
+            alt="A sun icon, click to change theme color"
+          />
+        </button>
+      </div>
+      <div class="timer">
+        <div class="timer__display">
+          <span class="timer__display--minute">00</span>
+          <span class="timer__display--separator">:</span>
+          <span class="timer__display--second">00</span>
+        </div>
+        <div class="timer__cotroller">
+          <button class="timer__cotroller__btn--start">
+            <img
+              class="timer__cotroller__btn__start__img"
+              src="./assets/img/light/play.svg"
+              alt="Start counting down"
+            />
+          </button>
+          <button class="timer__cotroller__btn--stop">
+            <img
+              class="timer__cotroller__btn__stop__img"
+              src="./assets/img/light/stop.svg"
+              alt="Stop counting down"
+            />
+          </button>
+          <button class="timer__cotroller__btn--plus">
+            <img
+              class="timer__cotroller__btn__plus__img"
+              src="./assets/img/light/plus.svg"
+              alt="Increse timer"
+            />
+          </button>
+          <button class="timer__cotroller__btn--minus">
+            <img
+              class="timer__cotroller__btn__minus__img"
+              src="./assets/img/light/minus.svg"
+              alt="Decrease timer"
+            />
+          </button>
+        </div>
+      </div>
+      <div class="sound">
+        <div class="sound__header">
+          <h2>Ambient sound</h2>
+        </div>
+        <div class="sound__controller">
+          <button class="sound__controller__btn--nature">
+            <img
+              class="sound__controller__btn__nature__img"
+              src="./assets/img/light/nature.svg"
+              alt="Play nature sound"
+            />
+          </button>
+          <button class="sound__controller__btn--rain">
+            <img
+              class="sound__controller__btn__rain__img"
+              src="./assets/img/light/rain.svg"
+              alt="Play rain sound"
+            />
+          </button>
+          <button class="sound__controller__btn--store">
+            <img
+              class="sound__controller__btn__store__img"
+              src="./assets/img/light/store.svg"
+              alt="Play store sound"
+            />
+          </button>
+          <button class="sound__controller__btn--fire">
+            <img
+              class="sound__controller__btn__fire__img"
+              src="./assets/img/light/fire.svg"
+              alt="Play fire sound"
+            />
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
