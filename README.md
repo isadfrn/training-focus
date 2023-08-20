@@ -4,6 +4,8 @@
 ![Repository size](https://img.shields.io/github/repo-size/isadfrn/training-focus?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/isadfrn/training-focus?style=flat-square)
 
+![](./assets/img/demo.gif)
+
 ## About
 
 This is an application for use focus techniques like pomodor.
